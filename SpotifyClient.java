@@ -15,8 +15,8 @@ import java.net.http.HttpResponse;
 import java.util.*;
 
 public class SpotifyClient {
-    private final String CLIENT_ID = "17fbbcea9fd2474c9c1dee9d2db8521e";
-    private final String CLIENT_SECRET = "437761d9a0da40378aeb95e382054ba1";
+    private final String CLIENT_ID = "your-client-id";
+    private final String CLIENT_SECRET = "your-client-secret";
     private final String REDIRECT_URL = "http://localhost:8089";
     private String API_URL = "https://api.spotify.com";
     private String AUTH_SERVER_URL = "https://accounts.spotify.com";
